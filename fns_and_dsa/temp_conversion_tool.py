@@ -6,8 +6,8 @@ It demonstrates variable scope using global constants.
 """
 
 # Global conversion factors
-FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5
+FAHRENHEIT_TO_CELSIUS_FACTOR = 5/9
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9/5
 
 def convert_to_celsius(fahrenheit):
     """Convert Fahrenheit to Celsius using the global conversion factor."""
@@ -36,6 +36,7 @@ def main():
     except ValueError:
         print("Invalid temperature. Please enter a numeric value.")
 
-# Ensure script is only run directly
 if __name__ == "__main__":
     main()
+
+
